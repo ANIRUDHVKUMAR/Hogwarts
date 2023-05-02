@@ -1,0 +1,145 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    background-color: #35424a;
+}
+.container
+{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+header
+{
+    background-color: #35424a;
+    padding-top: 30px;
+    color: #ffff;
+    min-height: 70px;
+    border-bottom: white 1px solid;
+}
+header a
+{
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+header ul
+{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+header li
+{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brand-name
+{
+    float: left;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 10px;
+}
+
+header #brand-name h1
+{
+    margin: 0;
+}
+
+header a:hover
+{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .current a
+{
+    color: aqua;
+    font-weight: bold;
+}
+
+#showcase
+{
+    background-color: #35424a;
+    color: #ffff;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+ .show-img
+{
+    height: auto;
+    width: 500px;
+}
+
+.heading
+{
+    width: 55%;
+    float: left;
+}
+
+.img-div
+{
+    width:45%;
+    float: right;
+}
+.heading
+{
+    margin-top: 50px;
+}
+
+#perks
+{
+    background-color: #35424a;
+    color: #ffff;
+    border-bottom: 2px solid white;
+    min-height: 70px;
+    
+}
+
+#perks h3
+{
+    text-align: center;
+}
+
+#perks li
+{
+    padding-top: 10px;
+}
+
+footer
+{
+    background-color: #35424a;
+    text-align: center;
+    color: #ffff;
+}
+
+@media(max-width:768px)
+{
+    header #brand-name,header nav,header nav li,#showcase .heading,#showcase .img-div
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+        
+        
+    }
+
+    header #brand-name h1 
+    {
+        margin-bottom: 10px;
+    }
+}
